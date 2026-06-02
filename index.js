@@ -35,7 +35,6 @@ submitBtn.addEventListener("click", () => {
     let p = document.createElement("p");
     p.classList.add("gold-price-card");
 
-    // Use innerHTML and a <br> tag to force a line break
     p.innerHTML = `Gold Price ${karatList[i]} : <br> ₹  ${singlePrice}`;
 
     div.appendChild(p);
