@@ -1,0 +1,35 @@
+.container {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  text-align:center;
+  justify-content:center;
+    
+}
+
+.main-container {
+  margin:auto;
+  text-align:center;
+}
+
+input,button {
+  padding:8px 10px;
+  font-size:18px;
+  font-weight: 600;
+
+}
+
+button{
+  cursor:pointer;
+}
+
+
+.gold-price-card {
+  background-color:#FFEE91;
+  color:#E2852E;
+  padding:10px 12px;
+  font-size:18px;
+  font-weight: 600;
+  border-radius:3px;
+  width:150px;
+}
